@@ -10,11 +10,23 @@
     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
     ">
     
-    <bean id="country" class="com.hossein.SpringConfigs.models.Country">
+    <context:annotation-config />
+    
+    <bean id="country1" class="com.hossein.SpringConfigs.models.Country">
     	<property name="name" value="USA" />
     	<property name="population" value="300000000" />
     </bean>
-
+    
+    <bean id="country2" class="com.hossein.SpringConfigs.models.Country">
+    	<property name="name" value="Germany" />
+    	<property name="population" value="60000000" />
+    </bean>
+    
+    <bean id="student" class="com.hossein.SpringConfigs.models.Student">
+    	<property name="name" value="David" />
+    	<property name="age" value="16" />
+    </bean>
+ 
 </beans>
 
 
