@@ -8,3 +8,6 @@ We Define Our Beans In a XML File. After That We Can Use Our Beans</p>
 Country Bean In It. For Connecting These Two Beans I've Used Autowired Annotation<br/>
 Also Because I've Defined Two Beans With Different Names From Country Class, I've Used<br/>
 Qualifier Annotation So As To Remove The Confusion By Specifying The Bean For Wiring.</p>
+<h5 style="text-decoration: underline;">Java Based Configuration</h5>
+<p>In Java Based Configuration, We Don't Need To Use XML Anymore.<br/>
+I've Defined 3 Classes And Made Them Beans In AppConfig With Configuration And Bean Annotations.</p>
